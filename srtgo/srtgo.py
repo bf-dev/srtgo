@@ -287,7 +287,7 @@ def reserve(rail_type="SRT"):
         default_passenger = int(default_passenger)
 
     if rail_type == "SRT":
-        stations = ["수서", "동탄", "오송", "대전", "동대구", "부산", "포항", "울산"]
+        stations = ["수서", "동탄", "오송", "대전", "동대구", "부산", "포항", "울산(통도사)"]
     else:
         stations = ["서울", "수원", "오송", "대전", "동대구", "부산", "물금"]
 
